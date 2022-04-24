@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Montserrat-500;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-600;
+  src: url(../fonts/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-700;
+  src: url(../fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Italic;
+  src: url(../fonts/static/Montserrat-BoldItalic.ttf);
+}
+html{
+  height:100%;
+}
+body {
+  
+  background-image: url(../img/Fundo\ PC.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-color: #0D0E16;
+  font-family: Montserrat;
+  width:100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 22px;
+  color: #06DA96;
+  font-family: Montserrat-700;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  font-family: Montserrat-600;
+}
+
+h3 {
+  font-size: 24px;
+  color: #06DA96;
+  font-family: Montserrat-Italic;
+}
+
+
+.link {
+  color: #06DA96;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #06DA96;
+}
+.logo{
+  width: 236px;
+}
+.stores-img{
+  width:398px;
+  max-width: 90%;
+}
+.suporte-img{
+  width:276px;
+  max-width: 90%;
+}
+.icon-check{
+  width: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(../img/Fundo\ Celular.jpg);
+  }
+  .logo{
+    width: 180px;
+  }
+  .stores-img{
+    width:278px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 15px;
+    font-family: Montserrat-500;
+  }
+  .icon-check{
+    width: 30px;
+  }
+  .suporte-img{
+    width:216px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  
+  h1{
+    font-size: 16px;
+  }
+}
